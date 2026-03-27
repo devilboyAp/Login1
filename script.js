@@ -10,7 +10,7 @@ function toggleMode() {
     const toggleText = document.getElementById('toggle-text');
 
     if (isLogin) {
-        title.innerText = "Physio Enlight";
+        title.innerText = "Deskdoc";
         subtitle.innerText = "Welcome back! Please enter your details.";
         nameGroup.style.display = "none";
         mainBtn.innerText = "Sign In";
